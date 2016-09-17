@@ -82,9 +82,9 @@ if read -t 10 -p "Do you needs to install the default GoWeb example? yes/no " Us
         fi
     else
         echo "You give up to use the default GoWeb example!"
-#        mkdir -p ${Go_Path}/GoWeb/bin
-#        mkdir -p ${Go_Path}/GoWeb/src
-#        mkdir -p ${Go_Path}/GoWeb/pkg
+        mkdir -p ${Go_Path}/GoWeb/bin
+        mkdir -p ${Go_Path}/GoWeb/src
+        mkdir -p ${Go_Path}/GoWeb/pkg
         exit 1
     fi
 else
