@@ -5,6 +5,7 @@ This repository provides information for go developing.
 ```
 prepare:
   download go install package (go*.tar.gz) and put it in the dir ~/Download/
+  go to the dir where file “go_install.sh” exist in terminal
   run go_install.sh with “./go_install.sh”
 go_install.sh including the following shell functions:
   1.installing go to "/usr/local/goroot/go";
